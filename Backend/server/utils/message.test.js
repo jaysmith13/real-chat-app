@@ -10,4 +10,11 @@ describe('generateMessage', () => {
 
         expect(typeof message.createData).toBe('number');
     })
+});
+
+describe('generateLocationMessage', () => {
+    it{'Should generate correct location object', () => {
+        var from = 'John';
+        var room = '';
+    }}
 })
